@@ -1,0 +1,176 @@
+/* Reset & dasar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f7f7f7;
+  color: #00255e;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background: #005aab;
+  color: white;
+  padding: 1rem 0;
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Hero / Beranda */
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 3rem 1rem;
+  background-color: #e9f1f7;
+}
+
+.hero-logo {
+  width: 180px;
+  height: auto;
+  object-fit: contain;
+  margin-bottom: 1rem;
+}
+
+/* Umum section */
+.section {
+  max-width: 1200px;
+  margin: auto;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+/* Card Grid */
+.card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.card {
+  background: rgb(255, 255, 255);
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 1rem;
+  text-align: center;
+  width: 180px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+}
+
+/* Galeri */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.gallery img {
+  width: 200px;
+  height: auto;
+  border: 1px solid #ccc;
+  padding: 4px;
+  background: white;
+  border-radius: 6px;
+}
+
+/* Kontak */
+.contact-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.contact-box {
+  background: rgb(126, 183, 248);
+  border: 1px solid #ccc;
+  padding: 1rem;
+  flex: 1;
+  min-width: 250px;
+  border-radius: 6px;
+}
+/* Profil Guru tanpa card, gambar oval besar */
+.guru-profiles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.guru-profile {
+  text-align: center;
+  max-width: 200px;  /* Lebar maksimal tiap profil */
+}
+
+.guru-img {
+  width: 180px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 50% / 60%; /* Bentuk oval */
+  display: block;
+  margin: 0 auto 0.8rem auto;
+}
+
+/* Responsif */
+@media (max-width: 768px) {
+  .guru-profiles {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .guru-profile {
+    max-width: 100%;
+  }
+
+  .guru-img {
+    width: 140px;
+    height: 170px;
+  }
+}
+
+
+/* Responsif
