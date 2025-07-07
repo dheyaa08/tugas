@@ -1,0 +1,2 @@
+{"original_name":"pplg.jpg","new_name":"686b6c7d5fb84_pplg.jpg","size":14575,"type":"image\/jpeg","extension":"jpg","description":"nama saya dhea","upload_time":"2025-07-07 06:43:09","path":"uploads\/686b6c7d5fb84_pplg.jpg"}
+{"original_name":"jeno.jpg","new_name":"686b73e66dc87_jeno.jpg","size":5224,"type":"image\/jpeg","extension":"jpg","description":"Lee Jeno","upload_time":"2025-07-07 07:14:46","path":"uploads\/686b73e66dc87_jeno.jpg"}

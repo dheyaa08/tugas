@@ -1,0 +1,39 @@
+<?php
+function autoGreeting($name) {
+    $hour = date("H");
+    
+    if ($hour < 12) {
+        $time = "pagi";
+    } elseif ($hour < 17) {
+        $time = "siang";
+    } elseif ($hour < 19) {
+        $time = "sore";
+    } else {
+        $time = "malam";
+    }
+    
+    return "Selamat $time, $name! Sekarang jam " . date("H:i");
+}
+
+// Testing
+echo autoGreeting("Alice") . "<br>";
+echo autoGreeting("Bob") . "<br>";
+
+// Fungsi untuk menentukan hari dalam bahasa Indonesia
+function getDayInIndonesian() {
+    $days = [
+        'Sunday' => 'Minggu',
+        'Monday' => 'Senin',
+        'Tuesday' => 'Selasa',
+        'Wednesday' => 'Rabu',
+        'Thursday' => 'Kamis',
+        'Friday' => 'Jumat',
+        'Saturday' => 'Sabtu'
+    ];
+    
+    $today = date("l");
+    return $days[$today];
+}
+
+echo "Hari ini adalah " . getDayInIndonesian();
+?>

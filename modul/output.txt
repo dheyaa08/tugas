@@ -1,0 +1,4 @@
+Ini adalah contoh text yang akan ditulis ke file.
+Baris kedua dari file.
+Tanggal: 2025-07-07 06:42:41
+Ini adalah text tambahan.
